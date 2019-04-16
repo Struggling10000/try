@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pynumpress
+Version: 0.0.4
+Summary: A more pythonic wrapper around the MSNumpress library for mass spectrometry numerical data compression
+Home-page: UNKNOWN
+Author: Joshua Klein, Manuel Koester, Christian Fuefzan
+Author-email: jaklein@bu.edu
+License: Apache 2
+Keywords: mass spectrometry compression
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C++
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+
+UNKNOWN
+
+

@@ -1,0 +1,68 @@
+# -*- coding: utf-8 -*-
+import os
+import numpy as np
+# class item:
+#     def __iadd__(self,num,layer,type,con):
+#         self.num = num
+#         self.layer = layer
+#         self.type = type
+#         self.conn =con
+# '''class item:
+#     def __iadd__(self):
+#         self.num=''
+#         self.layer=''
+#         self.type=''
+#         self.conn=[]
+# '''
+# '''
+# persontype = np.dtype({
+#     'names':['num', 'layer', 'type','conn'],
+#     'formats':['i','char', 'char',[]]})
+# '''
+
+
+#
+# if __name__ == '__main__':
+#
+#     a = np.array([(1, 'A', '2', (2, 3))], dtype=persontype)
+#     print(a)
+#     '''
+#     str1="A2B2C1D1E2F2fedD1dcba"
+#     k=1 #表示层数
+#     num=0 #记录节点的个数
+#     L=[]
+#     temp=''
+#     for i in range(0,len(str1)):
+#         a=str[i]
+#         #if ord(a)in [65,90]:
+#          #   temp=a
+#         if ord(a) in[48,57]:
+#             temp=str1[i-1]
+#             L[num][0]=temp
+#             L[num][1]=a
+#             L[num][4]=1
+#             num=num+1
+#         if ord(a) in[97, 122]:
+#             if ord(a)-ord(temp)==32:
+#
+#                 L[num][4] = 0
+#                 L[num][3] = a
+#                 temp=L[num-1][0]
+# '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

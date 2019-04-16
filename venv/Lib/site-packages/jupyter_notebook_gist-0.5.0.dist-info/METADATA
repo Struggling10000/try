@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: jupyter-notebook-gist
+Version: 0.5.0
+Summary: Create a gist from the Jupyter Notebook UI
+Home-page: https://github.com/mozilla/jupyter-notebook-gist
+Author: Mozilla Firefox Data Platform
+Author-email: fx-data-platform@mozilla.com
+License: MPL2
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ipython (>=4)
+Requires-Dist: notebook (>=4.3.1)
+Requires-Dist: jupyter
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: widgetsnbextension
+
+UNKNOWN
+
+
