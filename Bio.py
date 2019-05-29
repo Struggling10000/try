@@ -218,16 +218,36 @@ def painting_brance(brance_num,nobr,size=20,special=0):
 
 def anay_structofgly(ogly_str,list,turtleloc):
     if len(ogly_str)==0 and len(list)==0:
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
         return 0
     elif len(ogly_str)==3 and len(list)==0:#最后一个的话，直接绘制
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
         draw_type(ogly_str[1])
         return 0
     elif len(ogly_str)==0 and len(list)!=0:
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
         t.goto(turtleloc.pop())
         temp_str = list.pop()
         return anay_structofgly(temp_str, list, turtleloc)
     elif len(ogly_str)==3 and len(list)!=0:
-        print(ogly_str[0] + 'end')
+        #print(ogly_str[0] + 'end')
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
         draw_type(ogly_str[1])  # 先绘制糖，在绘制枝条
         t.goto(turtleloc.pop())
         temp_str=list.pop()
@@ -237,8 +257,13 @@ def anay_structofgly(ogly_str,list,turtleloc):
         """
         想法：先绘制糖，再看这个糖有没有右侧相连的类型5 在绘制下一层的枝条
         """
-        print (ogly_str[0])
-        print(ogly_str[-1])
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
+        # print (ogly_str[0])
+        # print(ogly_str[-1])
         draw_type(ogly_str[1])#先绘制糖，在绘制枝条
         tloc = t.pos()
 
@@ -247,7 +272,7 @@ def anay_structofgly(ogly_str,list,turtleloc):
         branchcount=0
         for i in range(3):
             if Stang in ogly_str:
-                print("HAHAIHEIHEI~")
+                #print("HAHAIHEIHEI~")
                 branchcount=branchcount+1
                 t.goto(tloc)
                 painting_brance(1, -branchcount)
@@ -270,7 +295,7 @@ def anay_structofgly(ogly_str,list,turtleloc):
                     print('这种情况罕见')
                 index=ogly_str.index(Stang)
                 ogly_str=ogly_str[0:index]+ogly_str[index+3:-1]+ogly_str[-1]
-                print(ogly_str)
+                #print(ogly_str)
 
             # if ogly_str[-3]=='5':
             #     print ("HAHAHA!")
@@ -312,6 +337,11 @@ def anay_structofgly(ogly_str,list,turtleloc):
         """
         本层有两个，将这两个绘制出来，并对它的下一层递归
         """
+        print('--------------------------------------')
+        print('当前栈中存储的是：',end="")
+        print(list)
+        print('当前解析的结点是：',end="")
+        print(ogly_str)
         #找到两个字符串的位置
         loc2= find_loc(ogly_str, ogly_str[0])
         #print(ogly_str[0],loc2[0])
@@ -328,7 +358,7 @@ def anay_structofgly(ogly_str,list,turtleloc):
         branchcount = 0
         for i in range(3):
             if Stang in ogly_str1:
-                print("HAHAIHEIHEI~")
+                #print("HAHAIHEIHEI~")
                 branchcount = branchcount + 1
                 t.goto(tloc)
                 painting_brance(1, -branchcount)
@@ -404,6 +434,11 @@ def anay_structofgly(ogly_str,list,turtleloc):
         '''
         本层是三个分支的情况
         '''
+        print('--------------------------------------')
+        print('当前栈中存储的是：', end="")
+        print(list)
+        print('当前解析的结点是：', end="")
+        print(ogly_str)
         loc3= find_loc(ogly_str, ogly_str[0])
         #print(ogly_str[0],loc3[0])
        # print(ogly_str[loc3[0]-1],loc3[1])
@@ -420,7 +455,7 @@ def anay_structofgly(ogly_str,list,turtleloc):
 
         for i in range(3):
             if Stang in ogly_str1:
-                print("HAHAIHEIHEI~")
+                #print("HAHAIHEIHEI~")
                 branchcount = branchcount + 1
                 t.goto(tloc)
                 painting_brance(1, -branchcount)
@@ -484,6 +519,8 @@ def test(ogly_str):
     # type_2()
     anay_structofgly(ogly_str, list, turtleloc)
     end_draw(ogly_str)
+    print('--------------------------------------')
+    print('end')
     #t.reset()
 
 
@@ -496,9 +533,9 @@ if __name__ == "__main__":
      #str=''
      #list=['A2B2C1D1E2F1G3gfF3fedD2dD1E2eE2eE5edcba','D1E2eE2eE5ed']
      #str = ''
-     str='A2B2C1D1E2F1G5gfF5fF5fedD1E2F1feE2F1G5gfF5fedcbB5bB5ba'
+     #str='A2B2C1D1E2F1G5gfF5fF5fedD1E2F1feE2F1G5gfF5fedcbB5bB5ba'
      #str='A2B2C1D1E2F1G5gfF5fedD1E2F1fedcbB5ba'
-     #str='A2B2C1D1E2F1G5gfF5fF5fedD1E2F1fF5fedcbB5ba'
+     str='A2B2C1D1E2F1G5gfF5fF5fedD1E2F1fF5fedcbB5ba'
      #str='A2B2C1D1E2F1G3gfF5fedD1E2F1fF5fedcbB5ba'
      # for i in range(len(list)):
      #      #    test(list[i])

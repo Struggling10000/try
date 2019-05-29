@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0339d7eb-2ab3-4cc1-95e3-e38876952d39" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/EM.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GMM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BP.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CORK_STOPPERS.XLS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CorkStoppers.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ELM-data.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HMM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HMM_self.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HMM_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/elm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/iris.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/painting_0.9.0.1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/模拟退火.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/遗传算法.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Bio.py" afterPath="$PROJECT_DIR$/Bio.py" />
+      <change beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +31,9 @@
     <SUITE FILE_PATH="coverage/try$Attention_IMDB.coverage" NAME="Attention IMDB情感分类 Coverage Results" MODIFIED="1556336227872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$2.coverage" NAME="2 Coverage Results" MODIFIED="1540820239541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$web.coverage" NAME="web Coverage Results" MODIFIED="1543027439566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$elm.coverage" NAME="elm Coverage Results" MODIFIED="1558339123023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$Hw_1.coverage" NAME="Hw_1 Coverage Results" MODIFIED="1545646796098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$HMM_test.coverage" NAME="HMM_test Coverage Results" MODIFIED="1558793556292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$try.coverage" NAME="try Coverage Results" MODIFIED="1547795071597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$try_keras.coverage" NAME="try-keras Coverage Results" MODIFIED="1555225295128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$MNIST.coverage" NAME="MNIST Coverage Results" MODIFIED="1546955771066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,13 +43,18 @@
     <SUITE FILE_PATH="coverage/try$keras_lstm.coverage" NAME="keras_lstm Coverage Results" MODIFIED="1555230771815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$d9_25.coverage" NAME="d9-25 Coverage Results" MODIFIED="1537948817389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$EM.coverage" NAME="EM Coverage Results" MODIFIED="1556524622281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$painting_0_9_0_1.coverage" NAME="painting_0.9.0.1 Coverage Results" MODIFIED="1558320797203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$homework2.coverage" NAME="homework2 Coverage Results" MODIFIED="1537262776438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/try$Bio.coverage" NAME="Bio Coverage Results" MODIFIED="1543027479471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$GA_Sonar.coverage" NAME="GA_Sonar Coverage Results" MODIFIED="1557753308427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/AI_Projects-master/Pattern Recognition/GA" />
+    <SUITE FILE_PATH="coverage/try$Bio.coverage" NAME="Bio Coverage Results" MODIFIED="1558272145858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$BP.coverage" NAME="BP Coverage Results" MODIFIED="1558790155274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$homework3.coverage" NAME="homework3 Coverage Results" MODIFIED="1537190920737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$4_11_LSTM.coverage" NAME="4-11 LSTM Coverage Results" MODIFIED="1555126003035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$imdb.coverage" NAME="imdb Coverage Results" MODIFIED="1555834911926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/anaconda/envs/tensorflow/Lib/site-packages/keras/datasets" />
     <SUITE FILE_PATH="coverage/try$12_25hw.coverage" NAME="12-25hw Coverage Results" MODIFIED="1555036641573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$IMDBRNN.coverage" NAME="IMDB情感分类RNN Coverage Results" MODIFIED="1555842876849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$HMM_self.coverage" NAME="HMM_self Coverage Results" MODIFIED="1558837935385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/try$.coverage" NAME="遗传算法 Coverage Results" MODIFIED="1557757900020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$trytry.coverage" NAME="trytry Coverage Results" MODIFIED="1537274844059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$tensflow.coverage" NAME="tensflow Coverage Results" MODIFIED="1546570854626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/try$1_8hw.coverage" NAME="1-8hw Coverage Results" MODIFIED="1546955912640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -56,89 +75,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IMDB情感分类RNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMDB情感分类RNN.py">
+      <file leaf-file-name="模拟退火.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/模拟退火.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attention IMDB情感分类.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Attention IMDB情感分类.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GMM.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GMM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imdb.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/anaconda/envs/tensorflow/Lib/site-packages/keras/datasets/imdb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try.py">
+      <file leaf-file-name="iris.data" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iris.data">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1610">
-              <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+            <state relative-caret-position="207">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4-11 LSTM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-11 LSTM.py">
+      <file leaf-file-name="IrisData.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IrisData.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MNIST.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HMM_self.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HMM_self.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#349#951#0" expanded="false" />
+                <element signature="e#1086#1516#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4-11 RNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-11 RNN.py">
+      <file leaf-file-name="HMM.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="1058">
+              <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12-25hw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12-25hw.py">
+      <file leaf-file-name="HMM_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HMM_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="3519">
+              <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="45" />
+              <folding>
+                <element signature="e#93#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ELM-data.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ELM-data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -154,6 +180,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +206,6 @@
         <option value="$PROJECT_DIR$/polyStruAna" />
         <option value="$USER_HOME$/Desktop/turtle-0.0.2.tar/turtle-0.0.2/setup.py" />
         <option value="$PROJECT_DIR$/2.py" />
-        <option value="$PROJECT_DIR$/Bio.py" />
         <option value="$PROJECT_DIR$/web.py" />
         <option value="$PROJECT_DIR$/Sousuo.py" />
         <option value="$PROJECT_DIR$/Homework.ipynb" />
@@ -187,7 +217,6 @@
         <option value="$PROJECT_DIR$/CNN.py" />
         <option value="$PROJECT_DIR$/1-8hw.py" />
         <option value="$PROJECT_DIR$/1-8hw2.py" />
-        <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/1-8hw(2）.pyi" />
         <option value="$PROJECT_DIR$/4-11 LSTM.py" />
         <option value="$PROJECT_DIR$/4-11 RNN.py" />
@@ -198,6 +227,16 @@
         <option value="$PROJECT_DIR$/Attention IMDB情感分类.py" />
         <option value="$PROJECT_DIR$/EM.py" />
         <option value="$PROJECT_DIR$/GMM.py" />
+        <option value="$PROJECT_DIR$/模拟退火.py" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/遗传算法.py" />
+        <option value="$PROJECT_DIR$/Bio.py" />
+        <option value="$PROJECT_DIR$/painting_0.9.0.1.py" />
+        <option value="$PROJECT_DIR$/elm.py" />
+        <option value="$PROJECT_DIR$/BP.py" />
+        <option value="$PROJECT_DIR$/HMM.py" />
+        <option value="$PROJECT_DIR$/HMM_test.py" />
+        <option value="$PROJECT_DIR$/HMM_self.py" />
       </list>
     </option>
   </component>
@@ -211,7 +250,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-24" />
+    <option name="y" value="22" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -231,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,25 +280,24 @@
               <item name="try" type="b2602c69:ProjectViewProjectNode" />
               <item name="try" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="try" type="b2602c69:ProjectViewProjectNode" />
-              <item name="try" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/PyCharm Code/try/Bio.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-Flask" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyCharmCode\try" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GMM">
+  <component name="RunManager" selected="Python.HMM_self">
     <configuration name="try" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="try" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,7 +329,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="Attention IMDB情感分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -302,13 +342,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="try" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Attention IMDB情感分类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="EM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HMM_self" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -321,13 +361,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="try" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HMM_self.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="GMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HMM_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -340,13 +380,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="try" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GMM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HMM_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="IMDB情感分类RNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="elm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -359,45 +399,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="try" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IMDB情感分类RNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="painting_0.9.0.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/anaconda/envs/tensorflow/Lib/site-packages/keras/datasets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="try" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/anaconda/envs/tensorflow/Lib/site-packages/keras/datasets/imdb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/painting_0.9.0.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.IMDB情感分类RNN" />
-      <item index="1" class="java.lang.String" itemvalue="Python.imdb" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Attention IMDB情感分类" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GMM" />
-      <item index="4" class="java.lang.String" itemvalue="Python.EM" />
+      <item index="0" class="java.lang.String" itemvalue="Python.painting_0.9.0.1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.elm" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BP" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HMM_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.HMM_self" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GMM" />
-        <item index="1" class="java.lang.String" itemvalue="Python.EM" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Attention IMDB情感分类" />
-        <item index="3" class="java.lang.String" itemvalue="Python.IMDB情感分类RNN" />
-        <item index="4" class="java.lang.String" itemvalue="Python.imdb" />
+        <item index="0" class="java.lang.String" itemvalue="Python.HMM_self" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HMM_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BP" />
+        <item index="3" class="java.lang.String" itemvalue="Python.elm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.painting_0.9.0.1" />
       </list>
     </recent_temporary>
   </component>
@@ -424,10 +464,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.006546645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27332243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8100471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -476,72 +516,72 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>642</line>
+          <line>679</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>643</line>
+          <line>680</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>644</line>
+          <line>681</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>645</line>
+          <line>682</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>646</line>
+          <line>683</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>480</line>
+          <line>517</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>358</line>
+          <line>395</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>359</line>
+          <line>396</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>360</line>
+          <line>397</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>361</line>
+          <line>398</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>362</line>
+          <line>399</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>363</line>
+          <line>400</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>364</line>
+          <line>401</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/try.py</url>
-          <line>365</line>
+          <line>402</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -564,6 +604,26 @@
           <line>65</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BP.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HMM_self.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HMM_self.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HMM_self.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -572,60 +632,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="249" />
+      <option name="time" value="255" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homework3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../seaborn_useExample.ipynb" />
-    <entry file="file://$PROJECT_DIR$/d9-25.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-15 python exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123.ipynb" />
-    <entry file="file://E:/IPMI/python 培训/d2 (9-25)/seaborn_useExample.ipynb" />
-    <entry file="file://$PROJECT_DIR$/seaborn_useExample.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mycode/main3.py" />
-    <entry file="file://$USER_HOME$/Desktop/turtle-0.0.2.tar/turtle-0.0.2/setup.py" />
-    <entry file="file://$PROJECT_DIR$/../Bio/Bio/Bio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duck.eps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2470">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duck.ipg" />
-    <entry file="file://$PROJECT_DIR$/duck.jpg" />
     <entry file="file://$PROJECT_DIR$/account.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -666,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9600">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="317" column="20" lean-forward="true" selection-start-line="317" selection-start-column="20" selection-end-line="317" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -723,14 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,15 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +816,7 @@
         <state relative-caret-position="1150">
           <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -838,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
           <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,19 +856,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/AI_Projects-master/Pattern Recognition/GA/GA_Sonar.py" />
     <entry file="file://$PROJECT_DIR$/EM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="128" column="25" lean-forward="true" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+        <state relative-caret-position="2714">
+          <caret line="121" column="30" lean-forward="false" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        <state relative-caret-position="2461">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CorkStoppers.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/遗传算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4416">
+          <caret line="194" column="25" lean-forward="false" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10304">
+          <caret line="518" column="14" lean-forward="false" selection-start-line="518" selection-start-column="14" selection-end-line="518" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painting_0.9.0.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21068">
+          <caret line="920" column="0" lean-forward="false" selection-start-line="920" selection-start-column="0" selection-end-line="920" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模拟退火.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IrisData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELM-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3519">
+          <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="45" />
+          <folding>
+            <element signature="e#93#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM_self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="e#349#951#0" expanded="false" />
+            <element signature="e#1086#1516#0" expanded="false" />
           </folding>
         </state>
       </provider>
